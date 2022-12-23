@@ -5,16 +5,10 @@
 #include "modules/pointers.h"
 #include "modules/strings.h"
 
-void clear() {
-    system("cls");
-}
-
 int main() {
     while (true) {
-
-        clear();
-
         // Help
+        system("cls");
         std::cout << "Available modules:\n";
         std::cout << std::setw(32) << std::setfill('-') << '\n';
         std::cout << "1: Data types and their binary representation\n";
@@ -35,27 +29,24 @@ int main() {
         // Exit
         if (userAction == '0') break;
 
+        system("cls");
         switch (userAction) {
             case '1': {
-                clear();
                 dataTypes();
                 break;
             }
 
             case '2': {
-                clear();
                 arrays();
                 break;
             }
 
             case '3': {
-                clear();
                 pointers();
                 break;
             }
 
             case '4': {
-                clear();
                 strings();
                 break;
             }
