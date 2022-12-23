@@ -127,7 +127,7 @@ void fillArray(int *arr, int length) {
 }
 
 
-int main() {
+int arrays() {
 
     std::cout.setf(std::ios::fixed);
     std::cout << "Enter 'h' to get list of commands\n";

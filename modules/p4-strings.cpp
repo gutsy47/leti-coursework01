@@ -200,7 +200,7 @@ int findAllFast(std::string &subStr, std::string &str, int *result) {
     return count;
 }
 
-int main() {
+int strings() {
     // Init the string
     std::string input;
     unsigned short response = getInput(input);

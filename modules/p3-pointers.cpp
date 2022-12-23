@@ -161,7 +161,7 @@ void subtractMatrix(int *arr1, int *arr2, int *arrRes, int N) {
         *pR = *p1 - *p2;
 }
 
-int main() {
+int pointers() {
     // Init matrix
     const int N = 6;
     int matrix[N][N];

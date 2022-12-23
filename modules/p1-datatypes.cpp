@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include "data-types.h"
 
 void printSizeOfTypes() {
     std::cout << "\n Data Type  | Size (bytes)\n";
@@ -110,7 +111,7 @@ std::string getBitsOFDouble(double input) {
 }
 
 
-int main() {
+int dataTypes() {
 
     std::cout.setf(std::ios::boolalpha);
     std::cout << "Enter 'h' to get list of commands\n";
