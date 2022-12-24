@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include "data-types.h"
 
 void printSizeOfTypes() {
     std::cout << "\n Data Type  | Size (bytes)\n";

@@ -1,9 +1,9 @@
 #include <iostream>
 #include <iomanip>
-#include "modules/data-types.h"
-#include "modules/arrays.h"
-#include "modules/pointers.h"
-#include "modules/strings.h"
+#include "modules/p1-datatypes.h"
+#include "modules/p2-arrays.h"
+#include "modules/p3-pointers.h"
+#include "modules/p4-strings.h"
 
 int main() {
     while (true) {
