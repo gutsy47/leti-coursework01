@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <windows.h>
 #include "modules/p1-datatypes.h"
 #include "modules/p2-arrays.h"
 #include "modules/p3-pointers.h"
@@ -52,7 +53,10 @@ int main() {
             }
 
             // Unknown module error
-            default: std::cout << "RuntimeError: unknown module\n";
+            default: {
+                std::cout << "RuntimeError: unknown module\n";
+                Sleep(500);
+            }
         }
     }
 
